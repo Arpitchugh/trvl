@@ -1,15 +1,17 @@
 import React from 'react';
 import '../../App.css';
 import Cards from '../Cards';
-import Hero from '../Hero';
+import HeroSection from '../HeroSection';
+import Footer from '../Footer';
 
 function Home() {
-	return (
-		<div>
-			<Hero />
-			<Cards />
-		</div>
-	);
+  return (
+    <>
+      <HeroSection />
+      <Cards />
+      <Footer />
+    </>
+  );
 }
 
 export default Home;
